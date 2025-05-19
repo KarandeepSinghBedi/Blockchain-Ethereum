@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "toggle",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toggled",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Q3_BooleanToogle.sol": "BooleanToogle"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Q3_BooleanToogle.sol": {
+			"keccak256": "0x2a874e249929e18440b487fe4884d81ca695dd0e2b90b08f963b2b7593eccc26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c0dbd2510e7f5b0cf5df1b178d63ce1930a1a1ff70d01c4c93ef249a99ce7a3",
+				"dweb:/ipfs/QmZmfRmofe9iRV6nmXC2z5NfhEktZBNDPvHScyixwfksM2"
+			]
+		}
+	},
+	"version": 1
+}
